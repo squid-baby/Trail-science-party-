@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Trail Science//Party//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260425T140000
+DTEND:20260425T180000
+SUMMARY:Trail Science — For the Love of Trails
+DESCRIPTION:Party of the Decade! Live music\, contests\, food\, drinks\, games\, prizes\, gear swap\, and top tier shenanigans.\n\nBring the fam and party accessories!\n\nSupport: https://www.patreon.com/plusdirt/about
+LOCATION:Outdoor Education Center
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
