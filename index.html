@@ -74,6 +74,30 @@
       display: inline-block;
       transform: rotate(-1deg);
       box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+      opacity: 0.35;
+    }
+
+    .date-wrapper {
+      position: relative;
+      display: inline-block;
+      margin: 20px auto;
+    }
+
+    .coming-soon-stamp {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-8deg);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      color: #e8b84b;
+      border: 3px solid #e8b84b;
+      padding: 4px 10px;
+      white-space: nowrap;
+      pointer-events: none;
+      text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+      box-shadow: inset 0 0 0 2px rgba(232,184,75,0.2);
     }
 
     .location {
@@ -238,13 +262,15 @@
       <span>A Field Party</span>
     </h1>
 
-    <div class="date-banner">Saturday, April 25th</div>
+    <div class="date-wrapper">
+      <div class="date-banner">Saturday, April 25th</div>
+      <div class="coming-soon-stamp">Next Party Coming Soon</div>
+    </div>
 
     <div class="location">Outdoor Education Center<br>410A Country Club Rd, Chapel Hill, NC 27514</div>
 
     <div class="time-block">
-      <div class="time-display">2pm–6pm</div>
-      <div class="time-tagline">bring your frens!</div>
+      <div class="time-tagline" style="font-size:17px; line-height:1.6; max-width:340px; margin:0 auto 24px;">big thanks to everyone who came out and made the event awesome</div>
     </div>
 
     <div class="subtitle">Live Music &bull; Contests &bull; Food &bull; Drinks &bull; Gear Swap</div>
@@ -266,22 +292,22 @@
         <div class="link-desc">Join the lab on Patreon</div>
       </a>
 
-      <a class="link-card" href="https://venmo.com/Chris-K-Francis" target="_blank" rel="noopener">
+      <a class="link-card" href="https://venmo.com/code?user_id=2480532466171904720&created=1777066235" target="_blank" rel="noopener">
         <div class="link-icon">💚</div>
         <div class="link-title">Donate</div>
         <div class="link-desc">Send a one-time gift on Venmo</div>
       </a>
 
-      <a class="link-card" href="mailto:ckfrancis@gmail.com?subject=Party%20of%20the%20Decade%20—%20I%20want%20to%20help!">
+      <a class="link-card" href="mailto:ckfrancis@gmail.com?subject=Trail%20Building%20%2F%20Riding%20in%20Chapel%20Hill%20%2F%20Carrboro">
         <div class="link-icon">🤝</div>
-        <div class="link-title">Pitch In to Throw a Banger Party</div>
-        <div class="link-desc">Email us to volunteer or contribute</div>
+        <div class="link-title">Contact Us</div>
+        <div class="link-desc">Want more info on building / riding trails in Chapel Hill / Carrboro?</div>
       </a>
 
-      <a class="link-card" href="trail-science-party.ics">
-        <div class="link-icon">📅</div>
-        <div class="link-title">Add the Party to My Calendar</div>
-        <div class="link-desc">iCal &bull; Google Calendar &bull; Outlook</div>
+      <a class="link-card" href="https://www.instagram.com/trail.science?igsh=NWMwZnlpMnlhYnN6" target="_blank" rel="noopener">
+        <div class="link-icon">📸</div>
+        <div class="link-title">Follow Us on Social</div>
+        <div class="link-desc">@trail.science on Instagram</div>
       </a>
     </div>
 
